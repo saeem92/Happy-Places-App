@@ -8,9 +8,6 @@ import android.util.Log
 import java.io.IOException
 import java.util.*
 
-//
-// START
-
 class GetAddressFromLatLng(
     context: Context, private val latitude: Double,
     private val longitude: Double
