@@ -59,9 +59,6 @@ class GetAddressFromLatLng(
         return ""
     }
 
-    /**
-     * onPostExecute method of AsyncTask where the result will be received and assigned to the interface accordingly.
-     */
     override fun onPostExecute(resultString: String?) {
         if (resultString == null) {
             mAddressListener.onError()
